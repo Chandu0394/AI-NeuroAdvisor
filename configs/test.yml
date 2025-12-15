@@ -1,0 +1,30 @@
+seed: 1
+
+# Paras for training feature embedding
+label_dir: <path>
+data_file: <path>
+has_label: True
+train_names: []
+val_names: []
+test_names: []
+num_worker: []
+
+## ResNet parameters
+out_classes: 7
+resnet_train_bs: 128
+save_model: <path>
+resnet_model: <path>
+emb_file: <path>
+
+
+## Fusion-transformer parametres
+
+seq: 1024
+fusion_iter: none
+fusion_model: <path>
+
+trans_seq: 30
+trans_bs: 1
+trans_model: <path>
+pred_folder: <path>
+trans_iter: none
